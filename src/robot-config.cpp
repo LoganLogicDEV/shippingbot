@@ -39,6 +39,7 @@ motor claw = motor(PORT12, ratio18_1, false);
 //Additional sensor setup
 distance theRuler = distance(PORT17);
 optical theEye = optical(PORT16);
+bumper eStop = bumper(Brain.ThreeWirePort.A);
 
 // VEXcode generated functions
 /**
